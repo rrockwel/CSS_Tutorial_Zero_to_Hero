@@ -1,0 +1,38 @@
+body{
+	background: linear-gradient(to bottom, rgb(200,100,100), rgb(100,100,100));
+}
+
+#title{
+	color:rgb(185,156,3);
+	/* External Font Family From https://fonts.google.com/ */
+	font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+.subtitle{
+	color: rgb(200,156,30);
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.para-text{
+	/* External Font Family From https://fonts.google.com/ */
+	font-family: 'Great Vibes', cursive;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+#linear-gradient{
+	height:400px;
+	width:80%;
+
+	background:linear-gradient(to right, rgba(200,100,10,1), rgba(100,200,10,.1));
+}
+
+#radial-gradient{
+	height: 400px;
+	width: 80%;
+
+	background:radial-gradient(ellipse, red 20%, green 50%, blue 80%);
+}

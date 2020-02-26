@@ -1,0 +1,42 @@
+body{
+	background: linear-gradient(to bottom, rgb(200,100,100), rgb(100,100,100));
+	font-family: "Times New Roman", times , serif;
+}
+
+#title{
+	color:rgb(15,156,3);
+}
+
+.subtitle{
+	color: rgb(200,156,30);
+}
+
+#linear-gradient{
+	height:400px;
+	width:80%;
+
+	background:linear-gradient(to right, rgba(200,100,10,1), rgba(100,200,10,.1));
+}
+
+#radial-gradient{
+	height: 400px;
+	width: 80%;
+	background:radial-gradient(ellipse, red 20%, green 50%, blue 80%);
+}
+
+#about-image{
+	height: 400px;
+	width:70vw;
+
+	border: 16px inset rgb(28,26,60);
+	/************ Padding Effects Space on inside of the box **/
+	padding: 13px;
+	/************ Adding Different Levels to different sides **/
+	/******* Top * Right * Bottom * Left   */
+	padding: 5px   15px     5px    35px;
+
+	/************ Margin Effects Space on outside of the box **/
+	margin: 40px;
+	/****** Top&Bottom * Left&Right  *************************/
+	margin:   80px          40px;
+}

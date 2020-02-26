@@ -1,0 +1,53 @@
+
+/* .subtitle selector Can be written with Attribute Selector Below */
+
+/*
+.subtitle{
+	color:blue;
+}
+*/
+
+/* Attribute Selector */
+h2[class=subtitle]{
+	color: blue;
+}
+
+/* Can Use different Attributes
+
+img[src='...']{
+	
+}
+
+*/
+
+/* select all images that file starts with 'img' */
+img[src^='img']{
+	border:10px solid black;
+}
+
+/* select all images that file ends with 'img' */
+img[src$='img']{}
+
+/* select all images that file contains 'img' */
+img[src*='img']{}
+
+/* Whitespace attribute selector */
+/* Class attribute is or contains 'article-subtitle' */
+h2[class~='article-subtitle']{
+	background-color: green
+}
+
+/* Class attribute is 'article-subtitle' or starts with 'article-subtitle' followed by a - */
+
+h2[class|='article-subtitle']{
+	background-color: pink;
+}
+
+/* Usage Example:
+<h2 class = 'subtitle-283'></h2>
+<h2 class = 'subtitle-294'></h2>
+<h2 class = 'subtitle-485'></h2>
+
+h2[class |= 'subtitle']{}
+
+*/

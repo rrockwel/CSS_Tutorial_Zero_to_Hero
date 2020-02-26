@@ -1,0 +1,50 @@
+body{
+	background: linear-gradient(to bottom, rgb(200,100,100), rgb(100,100,100));
+	font-family: "Times New Roman", times , serif;
+}
+
+#title{
+	color:rgb(15,156,3);
+}
+
+.subtitle{
+	color: rgb(200,156,30);
+}
+
+
+#linear-gradient{
+	height:400px;
+	width:80%;
+
+	background:linear-gradient(to right, rgba(200,100,10,1), rgba(100,200,10,.1));
+}
+
+#radial-gradient{
+	height: 400px;
+	width: 80%;
+	background:radial-gradient(ellipse, red 20%, green 50%, blue 80%);
+}
+
+
+#about-image{
+	width: 70vw;
+	height: 300px;
+	border: 5px solid rgb(28,26,60);
+	margin-left: 10px;
+	/* *** *** *** Float Renders as an inline element *** *** *** *** */
+	float: left;
+	/* Float: None (DEFAULT VALUE) causes element to appear where it naturally would;*/
+	float: none;
+	/* Float: Inherit causes element to inherit float property of parent element;*/
+	float: inherit;
+	float: right;
+}
+
+.site-table{
+/* None gets rid of element entirely (good for interaction e.g dropdown menu, overlays)*/
+	display: none;
+/* Inline-block allows setting width and height */
+/* Top and bottom margins are respected with inline-block */
+/* Inline-block does not add a linebreak after the element */
+	display: inline-block;
+}

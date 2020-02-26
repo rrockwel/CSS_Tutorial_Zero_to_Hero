@@ -1,0 +1,12 @@
+body{
+	background: url('../img-1.jpg');
+	background-image:url('../img-2.jpg');
+}
+
+#title{
+	color:rgb(186,133,9);
+}
+
+.subtitle{
+	color:rgb(200,148,30);
+}

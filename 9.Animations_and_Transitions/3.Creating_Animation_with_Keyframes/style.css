@@ -1,0 +1,124 @@
+body{
+	background: linear-gradient(to bottom, rgb(133, 211, 237), rgb(189, 227, 240));
+	font-family: 'Lato', sans-serif;
+}
+
+#title{
+	color:rgb(98, 207, 14);
+}
+
+.subtitle{
+	color: rgb(141, 242, 63);
+}
+
+#about-image{
+	height: 300px;
+	width:60%;
+	border: 6px solid rgb(28,28,85);
+	margin: 0px 40px;
+	float:right;
+}
+
+.container{
+	background-color: rgb(248,248,248);
+	margin: 10px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container-item{
+	background: rgb(36,130,39);
+	color: white;
+	font-size: 25px;
+	text-align: center;
+
+	width: 50px;
+	line-height: 50px;
+	margin: 10px;
+
+}
+
+.grid-container{
+	background-color:rgb(250,250,250);
+	margin:10px;
+	height:900px;
+
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 5px 5px;
+
+	grid-template-rows: auto auto auto;
+	
+}
+
+.grid-item{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	align-items: center;
+
+	width:auto;
+	line-height: 40px;
+	margin: 10px;
+}
+
+input, textarea{
+	display:block;
+	margin:10px;
+}
+
+.submit-button{
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border:none;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	color:white;
+	background:rgb(89,150,255);															
+	transition: background 500ms ease 50ms;
+	transition: background, padding 500ms ease 50ms;
+	-webkit-transition: background,padding 500ms ease;
+	-moz-transition: background,padding 500ms ease;
+	-o-transition: background,padding 500ms ease;
+}
+
+.submit-button:hover{
+	background:rgb(147,187,255);
+	padding: 20px 30px;
+}
+
+/* *** *** *** *** Creation of The Animation *** *** *** *** */
+
+/* indicate start of animation 	|  name of animation     */
+		@keyframes 				     red-to-black {
+			/* Stage of Animation */
+				0%{
+					/* State of Animation at this stage */
+					background:#ff0000;
+					transform:translate(0px,0px);
+				}
+				25%{
+					background:#c20000;
+					transform:translate(5px,5px);
+				}
+				50%{
+					background:#8c0000;
+					transform:translate(10px,10px);
+				}
+				75%{
+					background:#400000;
+					transform:translate(5px,5px);
+				}
+				100%{
+					background:#000000;
+					transform:translate(0px,0px);
+				}
+			/* Can Also Use ...*/
+			/*	to{}
+				from{} */
+		}

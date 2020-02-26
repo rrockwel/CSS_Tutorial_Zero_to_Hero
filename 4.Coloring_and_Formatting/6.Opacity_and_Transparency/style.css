@@ -1,0 +1,23 @@
+body{
+	/* a allows for opacity */
+	background: rgba(204,228,255, .55);
+}
+
+#title{
+	color:rgb(185,132,8);
+	/* Opacity (from a value) allows blending of different colors */
+	background: rgba(100,150,84,.1);
+}
+
+.subtitle{
+	color:rgb(200,148,30);
+}
+
+#service-image{
+	height:400px;
+	width:70%;
+
+	background:url('../img-2.jpg');
+	background-size: cover;
+	/*background-size:contain;*/
+}

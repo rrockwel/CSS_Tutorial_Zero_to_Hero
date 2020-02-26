@@ -1,0 +1,32 @@
+body{
+	background: linear-gradient(to bottom, rgb(50,150,200), rgba(50,50,50,.2));
+	/* Units can be in CM, MM, PT, VW(View-Width), VH(View-Height) */
+	font-size: 2cm;
+	font-size: 2mm;
+	font-size: 20pt;
+	font-size: 1.5pc; /* 1 pc = 12 pt */
+}
+
+#title{
+	color:rgb(186,133,9);
+}
+
+.subtitle{
+	color: rgb(200,148,30);
+	/* em refers to standard font size i.e. 2em is twice the standard font-size */
+	font-size:2em;
+}
+
+#linear-gradient{
+	height:400px;
+	width:80%;
+
+	background:linear-gradient(to right, rgba(200,100,10,1), rgba(100,200,10,.1));
+}
+
+#radial-gradient{
+	height: 400px;
+	width: 80%;
+
+	background:radial-gradient(ellipse, red 20%, green 50%, blue 80%);
+}
